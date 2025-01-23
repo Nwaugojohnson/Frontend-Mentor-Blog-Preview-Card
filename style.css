@@ -18,12 +18,12 @@
   font-style: normal;
 }
 
-main {
+body {
   background-color: var(--color-background);
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 95vh;
+  min-height: 90vh;
   padding: 1.5rem;
 }
 
@@ -34,9 +34,9 @@ main {
 }
 
 .img > img {
-    height: 24vh;
-    object-fit: cover;
-    margin-bottom: 1.5rem;
+  height: 24vh;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
 }
 
 .img img {
@@ -52,9 +52,18 @@ main {
   margin-bottom: 1rem;
 }
 
+.content h5 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.content h2 {
+  margin-bottom: 1rem;
+}
+
 .content p {
-    font-size: 1rem;
-    color: var(--color-text-gray-500);
+  font-size: 1rem;
+  color: var(--color-text-gray-500);
 }
 
 .sub-content {
