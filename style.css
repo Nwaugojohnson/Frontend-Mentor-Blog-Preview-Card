@@ -31,6 +31,8 @@ body {
   background-color: var(--color-background-light);
   padding: 1.5rem;
   border-radius: 2.2rem;
+  border: 1px solid var(--color-text-gray-950);
+  box-shadow: 0.7rem 0.7rem var(--color-text-gray-950);
 }
 
 .img > img {
@@ -59,6 +61,12 @@ body {
 
 .content h2 {
   margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.content h2:hover {
+  color: var(--color-background);
 }
 
 .content p {
@@ -69,6 +77,16 @@ body {
 .sub-content {
   display: flex;
   align-items: center;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
   gap: 1rem;
+}
+
+.sub-content img {
+  width: 2rem;
+}
+
+.sub-content h4 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--color-text-gray-950);
 }
