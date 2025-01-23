@@ -31,7 +31,7 @@ body {
   background-color: var(--color-background-light);
   padding: 1.5rem;
   border-radius: 2.2rem;
-  border: 1px solid var(--color-text-gray-950);
+  border: 2px solid var(--color-text-gray-950);
   box-shadow: 0.7rem 0.7rem var(--color-text-gray-950);
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .sub-content img {
-  width: 2rem;
+  width: 3rem;
 }
 
 .sub-content h4 {
